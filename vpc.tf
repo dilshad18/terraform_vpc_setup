@@ -1,7 +1,7 @@
 resource "aws_vpc" "vpc" {
         cidr_block = "10.218.32.0/20"
         tags {
-         Name      = "pre-qa-vpc"
+         Name      = "qa-vpc"
         }
 }
 
